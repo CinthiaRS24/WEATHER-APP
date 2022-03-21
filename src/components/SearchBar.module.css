@@ -1,0 +1,49 @@
+@import './vars.css';
+
+.btn {
+    background-color: var(--color-btn);
+    border-radius: 10%;
+    color: var(--color-btnText);
+    font-weight: bolder;
+    cursor: pointer;
+    align-self: flex-end;
+    font-size: 15px;  
+}
+
+.btn:hover {
+    background-color: var(--color-hoverBtn);
+    color: var(--color-hoverBtnText);
+}
+
+.styleDiv {
+    padding-top: 10px;   
+}
+
+.input {
+    font-size: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .btn {
+        background-color: var(--color-btn);
+        border-radius: 10%;
+        color: var(--color-btnText);
+        font-weight: bolder;
+        cursor: pointer;
+        align-self: flex-end;
+        font-size: 13px;  
+    }
+
+    .styleDiv {
+        padding-top: 6px;   
+    }
+
+    .input {
+        font-size: 13px;
+    }
+}

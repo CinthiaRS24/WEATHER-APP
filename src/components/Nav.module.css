@@ -1,0 +1,58 @@
+
+@import './vars.css';
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(5, 21, 73);
+}
+
+.titleMain {
+    font-family: fantasy;
+    font-size: 2.10rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color-hoverBtn);
+    margin-top: 15px;
+  }
+
+  .titleMain:hover {
+    color: white;
+  }
+
+  .titlesNav {
+    font-family: fantasy;
+    font-size: 2rem;
+    color: var(--color-hoverBtn);
+    margin-top: 15px;
+  }
+
+  .titlesNav:hover {
+    color: white;
+  }
+
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+
+  
+  @media screen and (max-width: 700px) {
+
+    .titleMain {
+      font-family: fantasy;
+      font-size: 1.60rem;
+    }
+  
+    .titlesNav {
+      font-size: 1.5rem;
+    }
+
+  }

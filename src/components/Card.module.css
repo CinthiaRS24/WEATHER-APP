@@ -1,0 +1,145 @@
+@import './vars.css';
+
+.cardStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    background-color: var(--color-tag); 
+    border-radius: 10px;
+    border: 2px solid var(--color-btn);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    height: 200px;
+    width: 500px;
+}
+
+
+
+.btn {
+    position: absolute;
+    background-color: var(--color-btn);
+    display: flex;
+    justify-content: center;
+    color: var(--color-btnText);
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left: 475px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: var(--color-hoverBtn);
+    color: var(--color-hoverBtnText);
+}
+
+
+
+.componentTag {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+
+
+
+.firstColum {
+    display: block;
+    width: 20%;
+    padding-top: 13px;
+}
+
+
+.links {
+    text-decoration: none;
+}
+
+.title {
+    text-decoration: none;
+    color: var(--color-titles);
+    margin: auto;
+    margin-top: 1px;
+    align-content: center;
+    padding-left: 15px;
+    font-family: serif;
+    font-size: 130%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.title:hover {
+    color: black;
+}
+
+.grados {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.maxTemp {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: xx-large;
+    align-self: flex-end;
+}
+
+.minTemp {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: large;
+    align-self: flex-end;
+}
+
+
+
+
+.secondColum {
+    display: inline;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.imgText {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgs {
+    width: 23px;
+    height: 23px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.textInfo {
+    font-size: 12px;
+}
+
+
+
+
+.lastColum{
+    display: block;
+    padding-top: 35px;
+}
+
+.time {
+    font-size: 30px;
+}
+
+.country{
+    font-size: 20px;
+    text-align: center;
+}
+
+.flag {
+    width: 30px;
+    height: 15px;
+}
+

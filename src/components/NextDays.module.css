@@ -1,0 +1,53 @@
+
+.tagsGeneral {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 5px;
+    margin-top: 100px;
+}
+
+.cardDaysStyle {
+    background-color: #dce4ecc0; 
+    border-radius: 10px;
+    border: 2px solid var(--color-btn);
+    width: 80%;
+    margin-left: 83px;
+    margin-bottom: 15px;
+}
+
+.titleDays {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.description {
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.pMaxMin {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .tagsGeneral {
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        margin-top: 85px;
+    }
+    
+    .cardDaysStyle {
+        margin-left: 15px;
+    }
+
+}

@@ -1,0 +1,140 @@
+.divGlobal {
+  display: flex;
+  margin-left: 105px;
+}
+
+
+
+.aboutMe {
+    border: 2px solid var(--color-btn);
+    width: 35%;
+    height: 290px;
+    margin-left: 80px;
+    margin-top: 100px;
+    background-color: #fcfcfcd3;
+    padding-bottom: 15px; 
+}
+
+.title {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+  color: var(--color-titles);
+}
+
+.bodyText {
+  font-family: PT Sans;
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+
+
+.allRedes {
+  margin-top: 100px;
+  margin-left: 280px;
+}
+
+.titleRedes {
+  font-size: 30px;
+  color: #053d5e;
+}
+
+
+.redes {
+  display: flex;
+  background-color: #fcfcfcd3;
+  margin-top: 15px;
+  padding-left: 10px;
+  border-radius: 5%;
+  animation-duration: 2s;
+  animation-name: slidein;
+  border: 1px solid var(--color-btn);
+}
+  
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 50%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.imagenL {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.imagenG {
+  display: flex;
+  width: 52px;
+  height: 52px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.textRedes {
+  font-size: 26.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  .divGlobal {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .aboutMe {
+    border: 2px solid var(--color-btn);
+    width: 70%;
+    margin-top: 100px;
+    background-color: var(--color-tag);
+    padding-bottom: 15px; 
+  }
+
+  .allRedes {
+    margin-top: 80px;
+    margin-left: 145px;
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .titleRedes {
+    font-size: 25px;
+  }
+
+  .redes {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 190px;
+  }
+  
+  .textRedes {
+    font-size: 26.5px;
+    padding-left: 15px;
+    padding-right: 5px;
+  }
+}
