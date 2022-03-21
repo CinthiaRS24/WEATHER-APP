@@ -5,7 +5,7 @@ Así mismo podrás acceder a información más detallada de cada una.
 
 #
 
-## Instrucciones para correr el proyecto
+## Instrucciones para correr el proyecto 🔧
 
 Desde la carpeta `APP WEATHER` se pueden ejecutar los siguientes comandos:
 
