@@ -32,3 +32,8 @@ http://localhost:3000
 
 #### https://create-react-app.dev/docs/getting-started/
 #### https://reactjs.org/
+
+## Revisa el funcionamiento de esta aplicación
+
+#### https://bit.ly/3vDHBxJ
+
