@@ -56,6 +56,7 @@ Cuando ingreso al mapa de dicha ciudad (Trujillo):
 ![image](https://user-images.githubusercontent.com/96211574/165112339-cf62a0df-88a4-435f-b222-e9579a782bba.png)
 
 Elimino una ciudad (Trujillo):
+<br>
 ![image](https://user-images.githubusercontent.com/96211574/165112492-3b643624-3a72-4103-93e1-5e8d6c32a10a.png)
 
 La ciudad seleccionada se eliminó:
