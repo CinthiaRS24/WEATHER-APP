@@ -44,16 +44,13 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 5px;
         margin-top: 85px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
     
     .cardDaysStyle {
-        margin-left: 15px;
-
-        background-color: #dce4ecc0; 
-        border-radius: 10px;
-        border: 2px solid var(--color-btn);
-        width: 80%;
-        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .titleDays {
