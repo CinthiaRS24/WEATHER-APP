@@ -83,7 +83,7 @@ function App() {
     <div className="App">
       <Nav onSearch={onSearch}/>
       <Switch>
-      <Redirect from="/ciudad/about" to="/about" />
+        <Redirect from="/ciudad/about" to="/about" />
         <Route path='/about'>
           <About />
         </Route>
