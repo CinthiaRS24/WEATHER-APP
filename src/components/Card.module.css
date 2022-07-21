@@ -147,16 +147,6 @@
 
 @media screen and (max-width: 700px) {
     .cardStyle {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-left: 20px;
-        background-color: var(--color-tag); 
-        border-radius: 10px;
-        border: 2px solid var(--color-btn);
-        margin-top: 5px;
-        margin-bottom: 15px;
-        padding-right: 15px; */
         height: 150px;
         width: 355px;
         padding-top: 5px;
@@ -166,14 +156,6 @@
     }
 
     .btn {
-        /* position: absolute;
-        background-color: var(--color-btn);
-        display: flex;
-        justify-content: center;
-        color: var(--color-btnText);
-        font-weight: bolder;
-        cursor: pointer; */
-        /* margin-left: 475px; */
         margin-top: 23px;
         font-size: 15px;
         margin-left: 335px;
