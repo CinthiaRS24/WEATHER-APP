@@ -16,43 +16,44 @@
     line-height: 1.2;
     text-align: center;
     color: var(--color-hoverBtn);
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
-  .titleMain:hover {
-    color: white;
+.titleMain:hover {
+  color: white;
+}
+
+.titlesNav {
+  font-family: fantasy;
+  font-size: 2rem;
+  color: var(--color-hoverBtn);
+  padding-top: 18px;
+}
+
+.titlesNav:hover {
+  color: white;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+  
+@media screen and (max-width: 650px) {
+
+  .titleMain {
+    font-family: fantasy;
+    font-size: 1.20rem;
+
   }
 
   .titlesNav {
-    font-family: fantasy;
-    font-size: 2rem;
-    color: var(--color-hoverBtn);
-    margin-top: 15px;
+    font-size: 1rem;
   }
 
-  .titlesNav:hover {
-    color: white;
-  }
-
-  a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
-
-
-
-  
-  @media screen and (max-width: 650px) {
-
-    .titleMain {
-      font-family: fantasy;
-      font-size: 1.20rem;
-    }
-  
-    .titlesNav {
-      font-size: 1rem;
-    }
-
-  }
+}
