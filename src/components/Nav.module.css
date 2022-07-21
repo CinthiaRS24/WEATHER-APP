@@ -44,15 +44,15 @@
 
 
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 650px) {
 
     .titleMain {
       font-family: fantasy;
-      font-size: 1.30rem;
+      font-size: 1.20rem;
     }
   
     .titlesNav {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
   }
