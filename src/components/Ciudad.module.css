@@ -162,11 +162,12 @@
 
     .secondPart {
         margin-top: 15px;
-        margin-right: 0px;
+        margin-right: 2px;
+        margin-left: 2px;
     }
 
     .firstColum {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .imgMain {
@@ -175,11 +176,11 @@
     }
     
     .temp {
-        font-size: 25px;
+        font-size: 23px;
     }
     
     .maxMin {
-        font-size: 17px;
+        font-size: 16px;
         padding-bottom: 15px;
     }
 
