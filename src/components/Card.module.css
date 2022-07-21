@@ -158,11 +158,11 @@
         margin-bottom: 15px;
         padding-right: 15px; */
         height: 150px;
-        width: 380px;
+        width: 370px;
         padding-top: 5px;
         padding-bottom: 5px;
-        margin-right: 2px;
-        margin-left: 2px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     .btn {
@@ -176,7 +176,7 @@
         /* margin-left: 475px; */
         margin-top: 23px;
         font-size: 15px;
-        margin-left: 360px;
+        margin-left: 350px;
     }
 
     .title {
