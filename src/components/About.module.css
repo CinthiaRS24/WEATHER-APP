@@ -111,7 +111,7 @@ a:-webkit-any-link {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .title {
@@ -127,24 +127,39 @@ a:-webkit-any-link {
   }
 
   .allRedes {
-    margin-top: 80px;
-    margin-left: 145px;
-    width: 50%;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 40px;
   }
 
   .titleRedes {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .redes {
     margin-top: 20px;
-    margin-left: 50px;
-    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+  }
+
+  .imagenL {
+    display: flex;
+    width: 38px;
+    height: 38px;
+
+  }
+  
+  .imagenG {
+    display: flex;
+    width: 38px;
+    height: 38px;
   }
   
   .textRedes {
-    font-size: 26.5px;
+    font-size: 23px;
     padding-left: 15px;
     padding-right: 5px;
   }
