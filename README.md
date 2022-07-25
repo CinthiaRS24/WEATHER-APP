@@ -27,15 +27,7 @@ http://localhost:3000
 #### React - Framework de Javascript
 #### CSS - Lenguaje de estilos
 
-
-## Aprende más 📋
-
-#### https://create-react-app.dev/docs/getting-started/
-#### https://reactjs.org/
-
-## Revisa el funcionamiento de esta aplicación
-
-#### https://bit.ly/3vDHBxJ
+## Vistas:
 
 Home:
 ![image](https://user-images.githubusercontent.com/96211574/165111787-1304fecd-1e46-431d-81a8-b4e1cb31bcce.png)
@@ -65,3 +57,5 @@ La ciudad seleccionada se eliminó:
 About:
 ![image](https://user-images.githubusercontent.com/96211574/165112709-4208aa2e-66fb-4092-8a04-c02390cffe14.png)
 
+## Prueba la aplicación:
+https://weather-app-six-plum.vercel.app/
