@@ -1,7 +1,7 @@
 # WEATHER APP
 
 Weather App es una aplicación que te permitirá conocer información sobre el clima de las distintas ciudades del mundo.
-Así mismo podrás acceder a información más detallada de cada una.
+Así mismo podrás acceder a información más detallada de cada una. El diseño es responsive.
 
 #
 
